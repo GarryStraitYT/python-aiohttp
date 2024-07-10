@@ -119,3 +119,4 @@ wait-for-it==2.2.2
     # via -r requirements/test.in
 yarl==1.9.4
     # via -r requirements/runtime-deps.in
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
