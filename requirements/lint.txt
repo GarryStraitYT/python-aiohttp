@@ -107,3 +107,4 @@ virtualenv==20.24.2
 # The following packages are considered to be unsafe in a requirements file:
 setuptools==68.0.0
     # via nodeenv
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
