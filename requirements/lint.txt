@@ -12,7 +12,7 @@ annotated-types==0.6.0
     # via pydantic
 async-timeout==4.0.3
     # via aioredis
-certifi==2024.2.2
+certifi==2024.7.4
     # via requests
 cffi==1.16.0
     # via pycares
@@ -70,7 +70,7 @@ python-on-whales==0.71.0
     # via -r requirements/lint.in
 pyyaml==6.0.1
     # via pre-commit
-requests==2.31.0
+requests==2.32.2
     # via python-on-whales
 rich==13.7.1
     # via typer
@@ -83,7 +83,7 @@ tomli==2.0.1
     #   mypy
     #   pytest
     #   slotscheck
-tqdm==4.66.2
+tqdm==4.66.3
     # via python-on-whales
 typer==0.12.3
     # via python-on-whales
@@ -107,3 +107,4 @@ virtualenv==20.24.2
 # The following packages are considered to be unsafe in a requirements file:
 setuptools==68.0.0
     # via nodeenv
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
